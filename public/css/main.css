@@ -1,0 +1,18 @@
+.hello {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  padding: 10px; }
+  .hello:hover {
+    background: green; }
+
+p {
+  background: red; }
+
+.list {
+  padding: 10px; }
+  .list__item {
+    height: 30px; }

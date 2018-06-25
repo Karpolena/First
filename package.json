@@ -1,0 +1,28 @@
+{
+  "name": "First",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-linux": "node_modules/gulp/bin/gulp.js scss",
+    "watch-linux": "node_modules/gulp/bin/gulp.js sass:watch",
+    "build": "gulp scss",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karpolena/First.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karpolena/First/issues"
+  },
+  "homepage": "https://github.com/Karpolena/First#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
