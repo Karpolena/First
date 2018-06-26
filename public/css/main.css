@@ -23,9 +23,9 @@
 li {
   text-decoration: none;
   display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 150%;
   text-align: center;
   line-height: 100px; }
 
